@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="docker-jsp-webapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>docker-jsp-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="docker-jsp-webapp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="docker-jsp-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
